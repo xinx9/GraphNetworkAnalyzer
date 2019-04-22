@@ -1,0 +1,8 @@
+bio-diseasome
+Average Degree: 4.604651162790698
+Highest Node Degree: 50
+Highest Closeness Centrality Node: 0.25183374083129584
+Highest Betweenness Centrality Node: 0.4693742788693079
+Diameter: 15
+Clustering Coefficient: 0.6358304997771197
+Louvain Modularity Cluster Size: 25

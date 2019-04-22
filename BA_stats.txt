@@ -1,0 +1,8 @@
+BA
+Average Degree: 9.9
+Highest Node Degree: 84
+Highest Closeness Centrality Node: 0.5181723779854621
+Highest Betweenness Centrality Node: 0.10763919142401741
+Diameter: 5
+Clustering Coefficient: 0.060752531775905054
+Louvain Modularity Cluster Size: 10
