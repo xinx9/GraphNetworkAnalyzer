@@ -106,18 +106,20 @@ elif(sys.argv[1] == "ba"):
     degdist(ba, "BA")
     bcdist(ba, "BA")
 else:
-    f = open(sys.argv[1],"r")
-    x = f.read()
-    y = x.split()
+    #f = open(sys.argv[1],"r")
+    #x = f.read()
+    #y = x.split()
+    #G = nx.Graph()
+    #i = 0
+    #while(i != len(y)):
+    #    if( i % 2 == 0):
+    #        G.add_node(int(y[i]))
+    #    else:
+    #        G.add_edge(int(y[i-1]), int(y[i]))
+    #    i+=1
     filename = sys.argv[1].split(".")[0]
-    G = nx.Graph()
-    i = 0
-    while(i != len(y)):
-        if( i % 2 == 0):
-            G.add_node(int(y[i]))
-        else:
-            G.add_edge(int(y[i-1]), int(y[i]))
-        i+=1
+    fh = open(sys.argv[1], "rb")
+    G = nx.read_edgelist(fh)
     dataout(G,filename)
     printNetwork(G, filename)
     degdist(G,filename)

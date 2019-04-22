@@ -1,0 +1,8 @@
+roadmap
+Average Degree: 86.02675585284281
+Highest Node Degree: 146
+Highest Closeness Centrality Node: 0.6607538802660754
+Highest Betweenness Centrality Node: 0.007358443130087085
+Diameter: 3
+Clustering Coefficient: 0.045938425858641926
+Louvain Modularity Cluster Size: 7
